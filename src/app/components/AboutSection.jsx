@@ -1,6 +1,6 @@
 "use client";
 import React, { useTransition, useState } from "react";
-import Image from "next/image";
+
 import TabButton from "./TabButton";
 import { FaNodeJs, FaReact, FaAngular, FaJava, FaHtml5, FaCss3, FaGithub } from "react-icons/fa"
 
@@ -20,13 +20,13 @@ const TAB_DATA = [
       <FaGithub size={30} />
       </div>
       <div className="flex flex-row gap-2">
-        <Image alt="Java Script Icon" src="/images/icons/js.png" width={30} height={30} />
-        <Image alt="SQL Icon" src="/images/icons/sql-server.png" width={30} height={30} />
-        <Image alt="Wordpress Icon" src="/images/icons/wordpress.png" width={30} height={30} />
-        <Image alt="Photoshop Icon" src="/images/icons/photoshop.png" width={30} height={30} />
-        <Image alt="Illustrator Icon" src="/images/icons/illustrator.png" width={30} height={30} />
-        <Image alt="AdobeXD Icon" src="/images/icons/xd.png" width={30} height={30} />
-        <Image alt="Indesign Icon" src="/images/icons/indesign.png" width={30} height={30} />
+        <img alt="Java Script Icon" src="/images/icons/js.png" width={30} height={30} />
+        <img alt="SQL Icon" src="/images/icons/sql-server.png" width={30} height={30} />
+        <img alt="Wordpress Icon" src="/images/icons/wordpress.png" width={30} height={30} />
+        <img alt="Photoshop Icon" src="/images/icons/photoshop.png" width={30} height={30} />
+        <img alt="Illustrator Icon" src="/images/icons/illustrator.png" width={30} height={30} />
+        <img alt="AdobeXD Icon" src="/images/icons/xd.png" width={30} height={30} />
+        <img alt="Indesign Icon" src="/images/icons/indesign.png" width={30} height={30} />
       </div>
       </ul>
     ),
@@ -69,7 +69,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png"  alt="Picture of me" className="border-b border-purple-700" width={500} height={500} />
+        <img src="/images/about-image.png"  alt="Mirnes" className="border-b border-purple-700" width={500} height={500} />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">

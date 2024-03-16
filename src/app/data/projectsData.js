@@ -15,7 +15,7 @@ const projectsData = [
       image: "/images/projects/FastFood.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Mirnessss/FastFoodOrdering",
-      previewUrl: "https://i.imgur.com/wbGLqKa.png",
+      previewUrl: "https://i.imgur.com/QWDlf7g.png",
     },
     {
       id: 3,
