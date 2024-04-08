@@ -6,7 +6,7 @@ const projectsData = [
       image: "/images/projects/ElenaJoy.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Mirnessss/ElenaJoyProject",
-      previewUrl: "https://i.imgur.com/MESxsac.jpg",
+      previewUrl: "https://mkdevelenajoy.netlify.app",
     },
     {
       id: 2,
@@ -15,7 +15,7 @@ const projectsData = [
       image: "/images/projects/FastFood.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Mirnessss/FastFoodOrdering",
-      previewUrl: "https://i.imgur.com/QWDlf7g.png",
+      previewUrl: "https://mkdevfastfoodordering.netlify.app",
     },
     {
       id: 3,
@@ -42,7 +42,7 @@ const projectsData = [
       image: "/images/projects/Travelly.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Mirnessss/Travelly",
-      previewUrl: "https://i.imgur.com/sHI5dCf.png",
+      previewUrl: "https://mkdevtravelly.netlify.app",
     },
     {
       id: 6,
@@ -60,7 +60,7 @@ const projectsData = [
         image: "/images/projects/htmlcssportfolio.png",
         tag: ["All", "Web"],
         gitUrl: "https://github.com/Mirnessss/PortfolioWebsite",
-        previewUrl: "https://i.imgur.com/Ji0TRsd.png",
+        previewUrl: "https://mkdevsimpleportfolio.netlify.app",
       },
       {
         id: 8,
