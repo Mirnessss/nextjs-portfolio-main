@@ -75,7 +75,7 @@ const AboutSection = () => {
           <p className="text-base lg:text-lg">
           Experienced Full Stack Developer with a passion for crafting innovative solutions. Proficient in both front-end and back-end technologies, 
           I thrive in creating seamless user experiences while ensuring robust functionality. Dedicated to continuous learning and staying abreast of emerging trends, 
-          I bring creativity and expertise to every project I undertake.
+          I bring creativity and expertise to every project I undertake. So
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
