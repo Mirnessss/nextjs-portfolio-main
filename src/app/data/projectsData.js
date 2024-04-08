@@ -33,7 +33,7 @@ const projectsData = [
       image: "/images/projects/avocado-salladsbar.png",
       tag: ["All", "Web"],
       gitUrl: "https://i.imgur.com/T0z1Pd2.jpeg",
-      previewUrl: "https://i.imgur.com/T0z1Pd2.jpeg",
+      previewUrl: "https://avocadosaladbar.vercel.app/",
     },
     {
       id: 5,
