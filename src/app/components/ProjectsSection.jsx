@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useState, useRef } from "react";
 import ProjectCard from "./ProjectCard";
@@ -37,8 +37,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Graphic Design"
-          isSelected={tag === "Graphic Design"}
+          name="Mobile"
+          isSelected={tag === "Mobile"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Design"
+          isSelected={tag === "Design"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
