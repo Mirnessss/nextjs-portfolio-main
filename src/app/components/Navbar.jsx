@@ -29,7 +29,7 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
 
   return (
-    <nav className="fixed mx-auto border-b border-purple-500/20 top-0 left-0 right-0 z-10 backdrop-filter backdrop-blur-lg">
+    <nav className="fixed mx-auto border-none top-0 left-0 right-0 z-10 backdrop-filter backdrop-blur-lg">
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           to="home"
