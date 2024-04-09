@@ -51,7 +51,7 @@ const projectsData = [
       image: "/images/projects/NetflixLPClone.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Mirnessss/netflix-clone",
-      previewUrl: "https://i.imgur.com/ZEfs7Qj.png",
+      previewUrl: "https://netflix-clone-weld-delta-53.vercel.app/",
     },
     {
         id: 7,
