@@ -50,7 +50,7 @@ const HeroSection = () => {
             </Link>
             <a
             target="_blank"
-              href="https://drive.google.com/file/d/1TB8OsD6_FSRr34ZDcldY7J9rcUTLR8X-/view?usp=sharing"
+              href="https://drive.google.com/file/d/1OGHs2dMbYOWcCIIQqvqUN5AzttBX3r9r/view?usp=sharing"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-purple-700 to-purple-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-gradient-to-br from-purple-700 to-purple-500 rounded-full px-5 py-2">
