@@ -11,7 +11,7 @@ const projectsData = [
     {
       id: 2,
       title: "Kungs Grillen Fast Food",
-      description: "PFull Stack Web Application",
+      description: "Full Stack Web Application",
       image: "/images/projects/FastFood.png",
       tag: ["All", "Web"],
       gitUrl: "https://github.com/Mirnessss/FastFoodOrdering",
