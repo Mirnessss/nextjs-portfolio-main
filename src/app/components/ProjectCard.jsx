@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types"; // Import PropTypes
 import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
 
@@ -34,6 +35,16 @@ const ProjectCard = ({ imgUrl, title, description, gitUrl, previewUrl, isOnWeb }
       </div>
     </div>
   );
+};
+
+// Prop type validations
+ProjectCard.propTypes = {
+  imgUrl: PropTypes.string.isRequired,       // Must be a string and required
+  title: PropTypes.string.isRequired,       // Must be a string and required
+  description: PropTypes.string.isRequired, // Must be a string and required
+  gitUrl: PropTypes.string.isRequired,      // Must be a string and required
+  previewUrl: PropTypes.string.isRequired,  // Must be a string and required
+  isOnWeb: PropTypes.bool.isRequired,       // Must be a boolean and required
 };
 
 export default ProjectCard;

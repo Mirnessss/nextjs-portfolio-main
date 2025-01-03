@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from 'prop-types';
 
 const ProjectTag = ({ name, onClick, isSelected }) => {
   const buttonStyles = isSelected
@@ -12,6 +13,12 @@ const ProjectTag = ({ name, onClick, isSelected }) => {
       {name}
     </button>
   );
+};
+
+ProjectTag.propTypes = {
+  name: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
+  isSelected: PropTypes.bool.isRequired,
 };
 
 export default ProjectTag;

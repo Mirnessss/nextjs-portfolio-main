@@ -1,7 +1,18 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",  // This tells the compiler to resolve imports based on the root folder
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"]  // This allows you to use '@' as an alias for your 'src' folder
     }
-  }
+  },
+  "include": [
+    "next-env.d.ts",  // Automatically includes Next.js types
+    "**/*.js",  // Include all JavaScript files in the project
+    "**/*.jsx", // Include all JSX files
+    "**/*.ts",  // If you're using TypeScript as well
+    "**/*.tsx"  // If you're using TypeScript and JSX
+  ],
+  "exclude": [
+    "node_modules"  // Don't include files in node_modules
+  ]
 }

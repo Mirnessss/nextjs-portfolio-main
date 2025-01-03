@@ -1,6 +1,6 @@
 "use client";
 import React, { useTransition, useState } from "react";
-
+import Image from "next/image"; // Import the Image component from Next.js
 import TabButton from "./TabButton";
 import {
   FaNodeJs,
@@ -28,48 +28,19 @@ const TAB_DATA = [
           <FaGithub size={30} />
         </div>
         <div className="flex flex-row gap-2">
-          <img
-            alt="Java Script Icon"
+          <Image
+            alt="JavaScript Icon"
             src="/images/icons/js.png"
             width={30}
             height={30}
+            priority={false} // Use priority if needed for above-the-fold content
           />
-          <img
-            alt="SQL Icon"
-            src="/images/icons/sql-server.png"
-            width={30}
-            height={30}
-          />
-          <img
-            alt="Wordpress Icon"
-            src="/images/icons/wordpress.png"
-            width={30}
-            height={30}
-          />
-          <img
-            alt="Photoshop Icon"
-            src="/images/icons/photoshop.png"
-            width={30}
-            height={30}
-          />
-          <img
-            alt="Illustrator Icon"
-            src="/images/icons/illustrator.png"
-            width={30}
-            height={30}
-          />
-          <img
-            alt="AdobeXD Icon"
-            src="/images/icons/xd.png"
-            width={30}
-            height={30}
-          />
-          <img
-            alt="Indesign Icon"
-            src="/images/icons/indesign.png"
-            width={30}
-            height={30}
-          />
+          <Image alt="SQL Icon" src="/images/icons/sql-server.png" width={30} height={30} />
+          <Image alt="WordPress Icon" src="/images/icons/wordpress.png" width={30} height={30} />
+          <Image alt="Photoshop Icon" src="/images/icons/photoshop.png" width={30} height={30} />
+          <Image alt="Illustrator Icon" src="/images/icons/illustrator.png" width={30} height={30} />
+          <Image alt="AdobeXD Icon" src="/images/icons/xd.png" width={30} height={30} />
+          <Image alt="InDesign Icon" src="/images/icons/indesign.png" width={30} height={30} />
         </div>
       </ul>
     ),
@@ -103,7 +74,7 @@ const TAB_DATA = [
 
 const AboutSection = () => {
   const [tab, setTab] = useState("skills");
-  const [isPending, startTransition] = useTransition();
+  const [, startTransition] = useTransition();
 
   const handleTabChange = (id) => {
     startTransition(() => {
@@ -114,19 +85,20 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <img
+        <Image
           src="/images/about-image.png"
           alt="Mirnes"
           className="border-b border-purple-700"
           width={500}
           height={500}
+          priority // Add priority for hero image or above-the-fold content
         />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             I am a passionate Software Developer with a strong foundation in
-            Front-End Development, now expanding my skillset through a
-            Bachelor’s program in Software Development at IU International
+            Front-End Development, now expanding my skills through a
+            Bachelor&apos;s program in Software Development at IU International
             University of Applied Sciences. I specialize in creating intuitive
             and dynamic digital experiences that merge form and function, with a
             focus on both front-end and back-end technologies.

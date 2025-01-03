@@ -1,4 +1,5 @@
 import { Link as ScrollLink } from 'react-scroll'; // Import Link as ScrollLink from react-scroll
+import PropTypes from 'prop-types';
 
 const NavLink = ({ href, title }) => {
   return (
@@ -12,6 +13,11 @@ const NavLink = ({ href, title }) => {
       {title}
     </ScrollLink>
   );
+};
+
+NavLink.propTypes = {
+  href: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
 };
 
 export default NavLink;
