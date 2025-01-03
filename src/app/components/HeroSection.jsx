@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 
 const HeroSection = () => {
   return (
-    <section id="home" className="h-screen pt-[8rem] lg:pt-[6rem]">
+    <section id="home" className="p-12">
       <div className="grid grid-cols-1 sm:grid-cols-12 place-items-center">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
