@@ -10,12 +10,12 @@ const AnimatedNumbers = dynamic(() => import("react-animated-numbers"), {
 const achievementsList = [
   {
     metric: "Projects",
-    value: "100",
+    value: 23,
     postfix: "+",
   },
   {
     metric: "Years",
-    value: "5",
+    value: 5,
   },
 ];
 
@@ -30,10 +30,10 @@ const AchievementsSection = () => {
               className="flex flex-col items-center justify-center mx-4 my-4 sm:my-0"
             >
               <h2 className="text-white text-4xl font-bold flex flex-row">
-                {achievement.prefix}
+                {/* Removed prefix as it's not defined */}
                 <AnimatedNumbers
                   includeComma
-                  animateToNumber={parseInt(achievement.value)}
+                  animateToNumber={Number(achievement.value)}  // Use Number to ensure a valid number is passed
                   locale="en-US"
                   className="text-white text-4xl font-bold"
                   configs={(_, index) => {
@@ -44,6 +44,7 @@ const AchievementsSection = () => {
                     };
                   }}
                 />
+                {/* Render postfix if exists */}
                 {achievement.postfix}
               </h2>
               <p className="text-[#ADB7BE] text-base">{achievement.metric}</p>
