@@ -23,9 +23,7 @@ const HeroSection = () => {
               sequence={[
                 "Mirnes Kovacevic",
                 1000,
-                "Web Developer",
-                1000,
-                "Mobile Developer",
+                "Software Developer",
                 1000,
                 "Graphic Designer",
                 1000,
@@ -36,7 +34,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Web Developer based in Augsburg, Germany!
+            Jr. Software Developer based in Augsburg, Germany!
           </p>
           <div>
             <Link
